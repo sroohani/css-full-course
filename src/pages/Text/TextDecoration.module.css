@@ -1,0 +1,15 @@
+.h1-example {
+  text-decoration: underline red wavy;
+}
+
+.h2-example {
+  text-decoration: line-through green dashed;
+}
+
+.p-example {
+  text-decoration: overline blue;
+}
+
+.a-example {
+  text-decoration: none;
+}

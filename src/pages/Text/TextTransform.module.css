@@ -1,0 +1,11 @@
+.h1-example {
+  text-transform: uppercase;
+}
+
+.h2-example {
+  text-transform: lowercase;
+}
+
+.p-example {
+  text-transform: capitalize;
+}

@@ -1,0 +1,11 @@
+.h1-example {
+  font-style: italic;
+}
+
+.h2-example {
+  font-style: oblique;
+}
+
+.p-example {
+  font-style: oblique 30deg;
+}

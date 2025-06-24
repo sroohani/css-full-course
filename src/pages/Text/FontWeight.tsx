@@ -1,5 +1,5 @@
 import Fieldset from "@/components/Fieldset/Fieldset";
-import "./FontWeight.module.css";
+import classes from "./FontWeight.module.css";
 
 const FontWeight = () => {
   return (
@@ -14,12 +14,14 @@ const FontWeight = () => {
         </p>
       </Fieldset>
       <Fieldset legend="Example">
-        <h1 className="example">I'm baby marfa austin 90's</h1>
+        <h1 className={classes["h1-example"]}>I'm baby marfa austin 90's</h1>
         <h2>banjo art party kitsch hot chicken</h2>
-        <p className="example">skateboard try-hard poutine small batch.</p>
+        <p className={classes["p-example"]}>
+          skateboard try-hard poutine small batch.
+        </p>
       </Fieldset>
       <Fieldset legend="Guidance">
-        <p>Heading should be 500-900 and other text 300-400</p>
+        <p>Headings should be 500-900 and other text 300-400.</p>
       </Fieldset>
     </>
   );
