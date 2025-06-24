@@ -1,0 +1,17 @@
+.navbar-item {
+  background-color: transparent;
+  color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 0.3rem;
+  min-width: 15ch;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar-item[class~="active"] {
+  background-color: steelblue;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}

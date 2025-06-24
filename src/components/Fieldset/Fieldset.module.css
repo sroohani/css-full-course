@@ -1,0 +1,9 @@
+.fieldset {
+  margin: 2rem 1rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.legend {
+  font-weight: bold;
+}
