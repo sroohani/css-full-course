@@ -5,7 +5,7 @@ const TextDecoration = () => {
   return (
     <>
       <Fieldset legend="Explanation">
-        <p>Sets decorative lines on text</p>
+        <p>Sets decorative lines on text.</p>
         <p>
           text-decoration: &lt;LINE_VALUE&gt; [COLOR_VALUE] [STYLE_VALUE]
           <br />

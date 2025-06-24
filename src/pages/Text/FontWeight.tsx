@@ -5,7 +5,7 @@ const FontWeight = () => {
   return (
     <>
       <Fieldset legend="Explanation">
-        <p>Sets the thickness of text characters</p>
+        <p>Sets the thickness of text characters.</p>
         <p>font-weight: bold;</p>
         <p>
           Values: 100, 200, 300, 400 (Normal, default for most text), 500
@@ -22,6 +22,10 @@ const FontWeight = () => {
       </Fieldset>
       <Fieldset legend="Guidance">
         <p>Headings should be 500-900 and other text 300-400.</p>
+        <p>
+          It's generally a good idea to set the font weights even if they have
+          default browser-set values.
+        </p>
       </Fieldset>
     </>
   );

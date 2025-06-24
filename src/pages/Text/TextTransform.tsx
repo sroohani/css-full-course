@@ -5,7 +5,7 @@ const TextTransform = () => {
   return (
     <>
       <Fieldset legend="Explanation">
-        <p>Sets the capitalization of text</p>
+        <p>Sets the capitalization of text.</p>
         <p>text-transform: uppercase;</p>
         <p>
           Values: none (Default), uppercase, lowercase, capitalize (The first

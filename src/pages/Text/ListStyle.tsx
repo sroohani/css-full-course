@@ -5,7 +5,7 @@ const ListStyle = () => {
   return (
     <>
       <Fieldset legend="Explanation">
-        <p>Sets the style of a list</p>
+        <p>Sets the style of a list.</p>
         <p>list-style: disc;</p>
         <p>
           Values: none, disc (Default for unordered lists), circle, square,
@@ -32,7 +32,7 @@ const ListStyle = () => {
       <Fieldset legend="Guidance">
         <p>
           Always set list-style to none when they are used for structural
-          purposes (e.g. navigation bars)
+          purposes (e.g. navigation bars).
         </p>
       </Fieldset>
     </>

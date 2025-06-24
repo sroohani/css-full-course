@@ -6,6 +6,9 @@ import FontStyle from "./FontStyle";
 import TextTransform from "./TextTransform";
 import ListStyle from "./ListStyle";
 import { Outlet } from "react-router-dom";
+import TextAlign from "./TextAlign";
+import LignHeight from "./LineHeight";
+import LetterSpacing from "./LetterSpacing";
 
 const textNavbarItems: NavbarItemData[] = [
   {
@@ -32,6 +35,21 @@ const textNavbarItems: NavbarItemData[] = [
     text: "List Style",
     link: "list-style",
     element: <ListStyle />,
+  },
+  {
+    text: "Text Align",
+    link: "text-align",
+    element: <TextAlign />,
+  },
+  {
+    text: "Line Height",
+    link: "line-height",
+    element: <LignHeight />,
+  },
+  {
+    text: "Letter Spacing",
+    link: "letter-spacing",
+    element: <LetterSpacing />,
   },
 ];
 

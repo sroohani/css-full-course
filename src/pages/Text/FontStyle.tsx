@@ -5,21 +5,18 @@ const FontStyle = () => {
   return (
     <>
       <Fieldset legend="Explanation">
-        <p>Sets the style of a font</p>
+        <p>Sets the style of a font.</p>
         <p>font-style: italic;</p>
         <p>
           Values: normal (Default), italic, oblique, oblique at a specific angle
           (e.g. oblique 10deg)
         </p>
         <p>
-          The difference between italic and oblique:
-          <br />
+          <h3>The difference between italic and oblique:</h3>
           Italic is a purpose-built font, which is actually selecting a specific
-          variation of the font,
-          <br />
-          whereas oblique will take a regular font and just slunt it to the
-          right. It's not a purpose-built font. It's applying rules to an
-          existing regular font.
+          variation of the font, whereas oblique will take a regular font and
+          just slunt it to the right. It's not a purpose-built font. It's
+          applying rules to an existing regular font.
         </p>
       </Fieldset>
       <Fieldset legend="Example">
