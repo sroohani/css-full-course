@@ -1,5 +1,5 @@
 import Fieldset from "@/components/Fieldset/Fieldset";
-import typescaleImage from "@/assets/typescale.png";
+import typescaleImage from "@/assets/images/typescale.png";
 import classes from "./FontSize.module.css";
 import { ExternalLink } from "lucide-react";
 

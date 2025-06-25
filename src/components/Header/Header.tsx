@@ -6,6 +6,7 @@ import Text from "@/pages/Text/Text";
 
 const mainNavbarItems: NavbarItemData[] = [
   {
+    id: 0,
     text: "Text",
     link: "text",
     element: Text(),

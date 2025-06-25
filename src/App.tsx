@@ -16,6 +16,9 @@ import Text, {
   LineHeight,
   LetterSpacing,
   FontSize,
+  Typeface,
+  FontFamily,
+  GoogleFonts,
 } from "./pages/Text/Text";
 
 const router = createBrowserRouter(
@@ -31,6 +34,9 @@ const router = createBrowserRouter(
         <Route path="line-height" element={<LineHeight />} />
         <Route path="letter-spacing" element={<LetterSpacing />} />
         <Route path="font-size" element={<FontSize />} />
+        <Route path="typeface" element={<Typeface />} />
+        <Route path="font-family" element={<FontFamily />} />
+        <Route path="google-fonts" element={<GoogleFonts />} />
       </Route>
     </Route>
   )

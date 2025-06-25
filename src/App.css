@@ -3,7 +3,8 @@ h2,
 h3,
 h4,
 p,
-ul {
+ul,
+ol {
   margin: 2rem;
 }
 

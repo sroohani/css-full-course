@@ -15,7 +15,7 @@ const FontStyle = () => {
           <h3>The difference between italic and oblique:</h3>
           Italic is a purpose-built font, which is actually selecting a specific
           variation of the font, whereas oblique will take a regular font and
-          just slunt it to the right. It's not a purpose-built font. It's
+          just slant it to the right. It's not a purpose-built font. It's
           applying rules to an existing regular font.
         </p>
       </Fieldset>

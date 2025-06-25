@@ -12,7 +12,7 @@ const Navbar = ({ items }: Props) => {
   return (
     <nav className={classes.navbar}>
       {items.map((item) => (
-        <NavbarItem itemData={item} />
+        <NavbarItem itemData={item} key={item.id} />
       ))}
     </nav>
   );

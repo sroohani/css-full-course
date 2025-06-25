@@ -1,0 +1,26 @@
+.h3-serif,
+.p-serif {
+  font-family: serif;
+}
+
+.h3-sans-serif,
+.p-sans-serif {
+  font-family: sans-serif;
+}
+
+.h3-monospace,
+.p-monospace {
+  font-family: monospace;
+}
+
+.h3-cursive,
+.p-cursive {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: "Great Vibes";
+}
+
+.h3-display,
+.p-display {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
