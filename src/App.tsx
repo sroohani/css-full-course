@@ -6,15 +6,17 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import RootLayout from "./RootLayout";
-import Text from "./pages/Text/Text";
-import FontWeight from "./pages/Text/FontWeight";
-import TextDecoration from "./pages/Text/TextDecoration";
-import FontStyle from "./pages/Text/FontStyle";
-import TextTransform from "./pages/Text/TextTransform";
-import ListStyle from "./pages/Text/ListStyle";
-import TextAlign from "./pages/Text/TextAlign";
-import LignHeight from "./pages/Text/LineHeight";
-import LetterSpacing from "./pages/Text/LetterSpacing";
+import Text, {
+  FontWeight,
+  TextDecoration,
+  FontStyle,
+  TextTransform,
+  ListStyle,
+  TextAlign,
+  LineHeight,
+  LetterSpacing,
+  FontSize,
+} from "./pages/Text/Text";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,8 +28,9 @@ const router = createBrowserRouter(
         <Route path="text-transform" element={<TextTransform />} />
         <Route path="list-style" element={<ListStyle />} />
         <Route path="text-align" element={<TextAlign />} />
-        <Route path="line-height" element={<LignHeight />} />
+        <Route path="line-height" element={<LineHeight />} />
         <Route path="letter-spacing" element={<LetterSpacing />} />
+        <Route path="font-size" element={<FontSize />} />
       </Route>
     </Route>
   )

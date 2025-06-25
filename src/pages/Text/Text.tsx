@@ -1,14 +1,15 @@
 import type { NavbarItemData } from "@/components/Navbar/types";
 import Navbar from "@/components/Navbar/Navbar";
+import { Outlet } from "react-router-dom";
 import FontWeight from "./FontWeight";
 import TextDecoration from "./TextDecoration";
 import FontStyle from "./FontStyle";
 import TextTransform from "./TextTransform";
 import ListStyle from "./ListStyle";
-import { Outlet } from "react-router-dom";
 import TextAlign from "./TextAlign";
-import LignHeight from "./LineHeight";
+import LineHeight from "./LineHeight";
 import LetterSpacing from "./LetterSpacing";
+import FontSize from "./FontSize";
 
 const textNavbarItems: NavbarItemData[] = [
   {
@@ -44,12 +45,17 @@ const textNavbarItems: NavbarItemData[] = [
   {
     text: "Line Height",
     link: "line-height",
-    element: <LignHeight />,
+    element: <LineHeight />,
   },
   {
     text: "Letter Spacing",
     link: "letter-spacing",
     element: <LetterSpacing />,
+  },
+  {
+    text: "Font Size",
+    link: "font-size",
+    element: <FontSize />,
   },
 ];
 
@@ -62,3 +68,14 @@ const Text = () => {
 };
 
 export default Text;
+export {
+  FontWeight,
+  TextDecoration,
+  FontStyle,
+  TextTransform,
+  ListStyle,
+  TextAlign,
+  LineHeight,
+  LetterSpacing,
+  FontSize,
+};
